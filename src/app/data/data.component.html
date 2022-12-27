@@ -1,1 +1,35 @@
-<p>data works!</p>
+<!-- /*
+* File: data.component.html
+* Author: Orosz Levente János
+* Copyright: 2022, Orosz Levente János
+* Group: Szoft II N
+* Date: 2022-12-28
+* Github: https://github.com/Olevente
+* Licenc: GNU GPL
+*/ -->
+
+
+
+
+<h2 class="text-center mt-3">Települések</h2>
+<div class="container table-center">
+    <table class="table table-striped">
+        <thead class=" bg-primary text-danger">
+            <tr>
+                <th>Név</th>
+                <th>Megye</th>
+                <th>Terület (km2)</th>
+                <th>Népesség (fő)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr *ngFor="let places of place">
+                <td>{{places.name}}</td>
+                <td>{{places.county}}</td>
+                <td>{{places.area}}</td>
+                <td>{{places.population}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
