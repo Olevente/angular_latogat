@@ -3,7 +3,7 @@
 * Author: Orosz Levente János
 * Copyright: 2022, Orosz Levente János
 * Group: Szoft II N
-* Date: 2022-12-28
+* Date: 2022-12-27
 * Github: https://github.com/Olevente
 * Licenc: GNU GPL
 */ 
